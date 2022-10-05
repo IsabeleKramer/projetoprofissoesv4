@@ -1,0 +1,177 @@
+body{
+    background-color: #6F73D2;
+}
+.wrapper{
+ border-width: 99%;
+ position: absolute;
+}
+header{
+    background-color: #64A6BD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 98.8%;
+    height: 150px;
+}
+title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color: #11001C;
+}
+a:hover{
+    color: #4F0147;
+    transition: 0.3 all;
+ }
+#logo{
+    background-image: url("../components/imagens/borboleta1.png");
+    height: 108px;
+    width: 147px;
+}
+main{
+    background-color: #90A8C3;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    margin-top: 10px;
+   padding-top: 200px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+p{
+    line-height: 20px;
+    max-width: 600px;
+    font-family: poppinslight;
+}
+img{
+    width: 240px;
+   right: 100%;
+}
+.carrossel{
+    width: 640px;
+    height: 360px;
+    overflow: hidden;
+}
+
+.carrossel .fotos{
+    width: 500%;
+    animation: animacao 20s infinite;
+
+}
+
+.carrossel .fotos img{
+    width: 19.9%;
+    
+}
+@keyframes animacao{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+   100% {margin-left: -400%;}
+}
+#sobre{
+    background-color: #ADA7C9;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#mercado{
+    background-color: #D7B9D5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#salario{
+    background-image: url("../components/imagens/dinheiro.png");
+    width: 290px;
+    height: 170px;
+    border-radius: 5px;
+}
+section{
+    background-color: #F4CAE0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#imagem1{
+    background-image: url("../components/imagens/quadrado1.png");
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    
+}
+#imagem2{
+    background-image: url("../components/imagens/quadrado2.jpg");
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    
+}
+#faculdades{
+    background-color: #ADA7C9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#faculdadesexterior{
+    background-color: #ADA7C9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#grade1{
+    background-color: #90A8C3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#grade{
+    background-color: #90A8C3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#entrevista{
+    background-color: #64A6BD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#entrevistaimg{
+    background-image: url("../components/imagens/entrevista.jpg");
+    width: 800px;
+    height: 450px;
+}
+#rodape{
+    background-color: #3A015C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#linkedin{
+    width: 100px;
+    height: 100px;
+}
+#github{
+    width: 220px;
+    height: 220px;
+}
+
